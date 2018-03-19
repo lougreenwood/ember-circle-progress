@@ -4,4 +4,8 @@ module.exports = {
 
   normalizeEntityName: function() {
   },
+
+  afterInstall: function() {
+    return this.addPackageToProject('jquery-circle-progress');
+  }
 };
