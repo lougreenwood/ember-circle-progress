@@ -7,7 +7,7 @@ module.exports = {
   included: function(app) {
     this._super.included.apply(this, arguments);
 
-    app.import(app.bowerDirectory + '/jquery-circle-progress/dist/circle-progress.js');
+    // app.import(app.bowerDirectory + '/jquery-circle-progress/dist/circle-progress.js');
   }
 
 };
