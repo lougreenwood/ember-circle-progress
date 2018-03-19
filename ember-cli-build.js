@@ -7,7 +7,7 @@ module.exports = function(defaults) {
     // Add options here
   });
 
-  app.import('bower_components/jquery-circle-progress/dist/circle-progress.js');
+  // app.import('bower_components/jquery-circle-progress/dist/circle-progress.js');
 
   return app.toTree();
 };
